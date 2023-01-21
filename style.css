@@ -26,17 +26,6 @@
 }
 
 body {
- /*
- background-image: url(./assets/bg-mobile.jpg);
- background-repeat: no-repeat;
- background-position: top center;
- background-size: cover;
- */
-
- /*short hand: */
-
- /*  background: color image repeat position/size */
-
  background: var(--bg-url) no-repeat top center/cover;
 }
 
@@ -46,7 +35,8 @@ body * {
 }
 
 #container { 
- width: 360px; /* largura da caixa */
+ width: 100%;
+ max-width: 588px;
  margin: 56px auto 0px;
  padding: 0 24px;
 }
@@ -64,8 +54,8 @@ body * {
 }
 
 #profile p {
- font-weight: 500; /* força da fonte, negrito etc.. */
- line-height: 24px; /* algura da linha  */
+ font-weight: 500; 
+ line-height: 24px; 
  margin-top: 8px;
 }
 
